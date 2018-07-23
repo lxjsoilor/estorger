@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*右侧栏 二维码 qq联系*/
+.izl-rmenu{position:fixed; /*left:50%; margin-left:532px; */right:0;bottom:10px; padding-bottom:73px; z-index:999; }
+.izl-rmenu .btn{width:70px; height:70px; margin-bottom:1px; cursor:pointer; position:relative;padding:0 !important; /*display: block !important;*/ text-align: center; color:white;}
+.izl-rmenu .btn>i{font-size: 35px;line-height:2;}
+.izl-rmenu .btn-qq{background-color:#0061ae;}
+.izl-rmenu a.btn-qq,.izl-rmenu a.btn-qq:visited{background-color:#6da9de; text-decoration:none; display:block;}
+.izl-rmenu .btn-wx{background-color:#78c340;display: block !important;clear: both;}
+.izl-rmenu .btn-wx:hover{background-color:#58a81c;}
+.izl-rmenu .btn-wx .pic{position:absolute; left:-160px; top:0px; display:none;width:160px;height:160px;}
+.izl-rmenu .btn-phone{background-color:#ff8200;}
+.izl-rmenu .btn-phone .phone{background-color:#ff8200; position:absolute; width:160px; left:-158px; top:-1px; line-height:70px;height:70px; color:#FFF; font-size:18px; text-align:center; display:none;}
+.izl-rmenu .btn-phone .phone a{display: block;color:white;font-size: 20px;}
+.izl-rmenu .btn-top{background-color:#666666; display:none;}
+.izl-rmenu .btn-top:hover{background-color:#444;}
+
+/*平板*/
+@media (max-width:767px){
+	/*侧栏二维码响应式*/
+  .izl-rmenu {padding-bottom:20px;}
+  .izl-rmenu .btn{width:50px; height:50px;}
+  .izl-rmenu .btn>i{font-size: 26px;line-height:1.9;}
+  .izl-rmenu .btn-wx .pic{top:-112px !important;}
+  .izl-rmenu .btn-phone .phone{line-height:50px;height: 50px;}
+  .izl-rmenu .congHidden{display: none;}
+}

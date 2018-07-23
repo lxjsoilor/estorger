@@ -1,0 +1,356 @@
+.textL {
+    text-align: left;
+}
+
+.textR {
+    text-align: right;
+}
+
+.icon_circle::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #4ce0db;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: right;
+    bottom: 0px;
+    top: 4px;
+    margin: auto;
+    left: -40px;
+}
+
+.bg9ee04c.icon_circle::before {
+    background-color: #9ee04c;
+}
+
+.bgffa94c.icon_circle::before {
+    background-color: #ffa94c;
+}
+
+.bgff6b66.icon_circle::before {
+    background-color: #ff6b66;
+}
+
+.bg30b5f2.icon_circle::before {
+    background-color: #30b5f2;
+}
+
+.freight_adv_img {
+    background: url('../images/freight/a_11.png') no-repeat center center;
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+}
+
+.freight_adv_img_1:hover .freight_adv_img {
+    background-image: url('../images/freight/a_21.png') !important;
+}
+
+.freight_adv_img_2:hover .freight_adv_img {
+    background-image: url('../images/freight/a_22.png') !important;
+}
+
+.freight_adv_img_3:hover .freight_adv_img {
+    background-image: url('../images/freight/a_23.png') !important;
+}
+
+.freight_adv_img_4:hover .freight_adv_img {
+    background-image: url('../images/freight/a_24.png') !important;
+}
+
+.freight_app_bg {
+    background: url('../images/freight/freight_app_bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.cf5 {
+    color: #f5f8fa;
+}
+
+.bgf5 {
+    background-color: #f5f8fa;
+}
+
+.freight_app_item {
+    border-radius: 20px;
+    width: 100%;
+    position: relative;
+    height: 460px;
+    background: url('../images/freight/b_bg_21.png');
+    cursor: pointer;
+}
+
+.freight_app_item:hover {
+    background-image: url('../images/freight/b_bg_11.png')
+}
+
+.freight_app_item2 {
+    background-image: url('../images/freight/b_bg_22.png')
+}
+
+.freight_app_item2:hover {
+    background-image: url('../images/freight/b_bg_12.png')
+}
+
+.freight_app_item3 {
+    background-image: url('../images/freight/b_bg_23.png')
+}
+
+.freight_app_item3:hover {
+    background-image: url('../images/freight/b_bg_13.png')
+}
+
+.freight_app_in {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: 100px;
+    line-height: 240px;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.freight_app_in::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 32px;
+    height: 24px;
+    background-color: #000000;
+    bottom: -50px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    background: url('../images/freight/b_triangle.png')
+}
+
+.freight_app_more {
+    padding: 15px 30px;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    display: inline-block;
+}
+
+.freight_app_more:hover {
+    color: #f5f8fa;
+}
+
+.freight_system p {
+    line-height: 30px;
+}
+
+.freight_title {
+    background: url('../images/freight/d_tab.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.freight_title div {
+    font-size: 36px;
+    line-height: 40px;
+    color: #ffffff;
+    letter-spacing: 20px;
+}
+
+.freight_title p {
+    /* font-size: 24px; */
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.exploit_type {
+    /* height: 255px; */
+    color: #b6bbbf;
+}
+
+.exploit_type::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.exploit_type>div {
+    /* height: 255px; */
+}
+
+.exploit_type_all {
+    line-height: 255px;
+    color: #ffffff;
+    background-color: #000000;
+    background: url('../images/freight/e_01_bg.png') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*box2 banner*/
+
+.secondPageBanner {
+    height: 592px;
+}
+
+.swiper-button-prev:hover {
+    background-position: 0 -102px;
+}
+
+.swiper-button-next:hover {
+    background-position: 0 -306px;
+}
+
+.box2 {
+    position: relative;
+    margin: 0 auto
+}
+
+.box2 .swiper-slide {
+    width: 300px;
+    height: 530px;
+}
+
+.box2 .swiper-slide img {
+    display: block;
+    box-shadow: 0px -1px 10px #d3d3d3;
+}
+
+.box2 .swiper-line {
+    height: 0;
+    width: 100%;
+    border-top: 1px solid #dbdbdb;
+    position: absolute;
+}
+
+.box2Text>div {
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+}
+
+.box2Text>div>span {
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #3776ff;
+    margin: 0 auto;
+}
+
+.box2Text>div:nth-child(2)>span {
+    width: 55px;
+    height: 3px;
+    background-color: #ff8c19;
+}
+
+.box2Text>div:first-child {
+    left: 8%;
+}
+
+.box2Text>div:nth-child(2) {
+    left: 37.5%;
+}
+
+.box2Text>div:nth-child(3) {
+    left: 66.5%;
+}
+
+.f_0 {
+    line-height: 0px;
+    font-size: 0px;
+}
+
+.box2Text>div>p {
+    height: 24px;
+    line-height: 24px;
+}
+
+.box2Button button {
+    border: 1px solid #d1d1d1;
+    padding: 14px 90px;
+    background-color: transparent;
+    font-size: 20px;
+    box-sizing: border-box;
+    /* float: left; */
+}
+
+.box2Button1 {
+    /* border-right: none !important; */
+    /* border-radius: 5px 0px 0px 5px; */
+    border-radius: 0px;
+}
+
+.box2Button2 {
+    /* border-left: none !important; */
+    /* border-radius: 0px 5px 5px 0px; */
+    border-radius: 0px;
+}
+
+.box2Button button.active,
+.box2Button button:hover {
+    border: 1px solid transparent;
+    background-color: #25d2e6;
+    color: #fff;
+}
+
+.box2Button span {
+    width: 10px;
+    display: inline-block;
+}
+
+.swiper-button-prev {
+    background: url("../images/freight/f_left.png") no-repeat center center !important;
+    width: 90px !important;
+    height: 90px !important;
+    background-size: cover !important;
+    left: 0px;
+}
+
+.swiper-button-next {
+    background: url("../images/freight/f_right.png") no-repeat center center !important;
+    width: 90px !important;
+    height: 90px !important;
+    background-size: cover !important;
+    right: 0px;
+}
+
+.ma_ban_case>div {
+    padding: 0px;
+}
+
+.ma_ban_case_title {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    position: relative;
+}
+
+.ma_ban_case_label {
+    width: 217px;
+    /* height: 86px; */
+    color: #ffffff;
+    background: url('../images/freight/g_bg.png');
+    text-align: center;
+    line-height: 86px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+@media (max-width:500px) {
+    .ma_ban_case_label {
+        width: 140px;
+        line-height: 50px;
+        right: 20px;
+        top: 20px;
+    }
+}
