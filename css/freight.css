@@ -79,8 +79,20 @@
     width: 100%;
     position: relative;
     height: 460px;
+    background: url('../images/freight/b_bg_11.png');
+    cursor: pointer;
+}
+
+.freight_app_item_hove {
+    border-radius: 20px;
+    width: 100%;
+    position: relative;
+    height: 460px;
     background: url('../images/freight/b_bg_21.png');
     cursor: pointer;
+    text-align: center;
+    padding: 100px 40px 10px;
+    ;
 }
 
 .freight_app_item:hover {
@@ -88,7 +100,7 @@
 }
 
 .freight_app_item2 {
-    background-image: url('../images/freight/b_bg_22.png')
+    background-image: url('../images/freight/b_bg_12.png')
 }
 
 .freight_app_item2:hover {
@@ -96,7 +108,7 @@
 }
 
 .freight_app_item3 {
-    background-image: url('../images/freight/b_bg_23.png')
+    background-image: url('../images/freight/b_bg_13.png')
 }
 
 .freight_app_item3:hover {
@@ -200,6 +212,10 @@
 /*box2 banner*/
 
 .secondPageBanner {
+    height: 592px;
+}
+
+.secondPageBanner2 {
     height: 592px;
 }
 
@@ -353,4 +369,28 @@
         right: 20px;
         top: 20px;
     }
+}
+
+.line30 {
+    line-height: 30px;
+}
+
+.phone_item .row {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.phone_item .row:hover {
+    transform: translateX(10px)
+}
+
+.freight_system {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.freight_system:hover {
+    transform: translateY(-20px)
 }
