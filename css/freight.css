@@ -153,6 +153,7 @@
     text-align: center;
     border: 2px solid #ffffff;
     display: inline-block;
+    cursor: pointer;
 }
 
 .freight_app_more:hover {
