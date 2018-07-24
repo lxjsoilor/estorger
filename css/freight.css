@@ -98,13 +98,14 @@
 .freight_app_item_hove {
     border-radius: 20px;
     width: 100%;
-    position: relative;
     height: 460px;
     background: url('../images/freight/b_bg_21.png');
     cursor: pointer;
     text-align: center;
     padding: 100px 40px 10px;
-    ;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 .freight_app_item:hover {
@@ -406,4 +407,9 @@
 
 .freight_system:hover {
     transform: translateY(-20px)
+}
+
+#appExploit>.col-sm-4>.relative {
+    overflow: hidden;
+    border-radius: 20px;
 }

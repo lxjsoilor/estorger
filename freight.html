@@ -340,18 +340,40 @@
                 <div class="col-sm-4">
                     <div class="blank50"></div>
                     <div class="blank20"></div>
-                    <div class="freight_app_item fadeIn animated">
-                        <div class="freight_app_in">
-                            同城配送
+                    <div class="relative">
+                        <div class="freight_app_item fadeIn animated">
+                            <div class="freight_app_in">
+                                同城配送
+                            </div>
+                        </div>
+                        <div class="freight_app_item_hove fadeInUp cfff animated" style="display:none;">
+                            <div class="f28">
+                                同城配送APP平台开发
+                            </div>
+                            <div class="blank50"></div>
+                            <div class="f_20 line30">
+                                集信息化与智能化于一体的数据共享平台，同时提供货主版和司机版，实现双方信息的互通，支持派单、接单、拼单等服务。货主发布用车需求（包括路线、时间、货物类型等），车主可选择是否接单。
+                            </div>
                         </div>
                     </div>
-                    <div class="freight_app_item_hove cfff fadeInUp animated" style="display:none;">
-                        <div class="f28">
-                            同城配送APP平台开发
+                </div>
+                <div class="col-sm-4">
+                    <div class="blank50"></div>
+                    <div class="blank20"></div>
+                    <div class="relative">
+                        <div class="freight_app_item fadeIn animated freight_app_item2">
+                            <div class="freight_app_in">
+                                城际配送
+                            </div>
                         </div>
-                        <div class="blank50"></div>
-                        <div class="f_20 line30">
-                            集信息化与智能化于一体的数据共享平台，同时提供货主版和司机版，实现双方信息的互通，支持派单、接单、拼单等服务。货主发布用车需求（包括路线、时间、货物类型等），车主可选择是否接单。
+                        <div class="freight_app_item_hove fadeInUp animated cfff" style="display:none;">
+                            <div class="f28">
+                                城际配送APP平台开发
+                            </div>
+                            <div class="blank50"></div>
+                            <div class="f_20 line30">
+                                高效匹配与整合社会运力资源，支持多省对接，为异地货主以及司机搭建供需资源共享的平台，确保货物在城市之间及时配送。
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -359,37 +381,20 @@
                     <div class="blank50"></div>
                     <div class="blank20"></div>
 
-                    <div class="freight_app_item fadeIn animated freight_app_item2">
-                        <div class="freight_app_in">
-                            城际配送
+                    <div class="relative">
+                        <div class="freight_app_item fadeIn animated freight_app_item3">
+                            <div class="freight_app_in">
+                                长干线配送
+                            </div>
                         </div>
-                    </div>
-                    <div class="freight_app_item_hove fadeInUp animated cfff" style="display:none;">
-                        <div class="f28">
-                            城际配送APP平台开发
-                        </div>
-                        <div class="blank50"></div>
-                        <div class="f_20 line30">
-                            高效匹配与整合社会运力资源，支持多省对接，为异地货主以及司机搭建供需资源共享的平台，确保货物在城市之间及时配送。
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="blank50"></div>
-                    <div class="blank20"></div>
-
-                    <div class="freight_app_item fadeIn animated freight_app_item3">
-                        <div class="freight_app_in">
-                            长干线配送
-                        </div>
-                    </div>
-                    <div class="freight_app_item_hove fadeInUp animated cfff" style="display:none;">
-                        <div class="f28">
-                            长干线APP平台开发
-                        </div>
-                        <div class="blank50"></div>
-                        <div class="f_20 line30">
-                            省与省之间的运输专线，距离可达500-2000公里，整车直达运输，无中转环节。广泛应用于鞋服、快消品、零部件、医药、冷链等配送领域。
+                        <div class="freight_app_item_hove fadeInUp animated cfff" style="display:none;">
+                            <div class="f28">
+                                长干线APP平台开发
+                            </div>
+                            <div class="blank50"></div>
+                            <div class="f_20 line30">
+                                省与省之间的运输专线，距离可达500-2000公里，整车直达运输，无中转环节。广泛应用于鞋服、快消品、零部件、医药、冷链等配送领域。
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1173,13 +1178,12 @@
         $(this).find('.img_hover2').hide();
         $(this).find('.img_hover1').show();
         $(this).find('textC').css('color', '');
-
     });
     $('#appExploit .col-sm-4').hover(function () {
-        $(this).find('.freight_app_item').hide();
+        // $(this).find('.freight_app_item').hide();
         $(this).find('.freight_app_item_hove').show();
     }, function () {
-        $(this).find('.freight_app_item').show();
+        // $(this).find('.freight_app_item').show();
         $(this).find('.freight_app_item_hove').hide();
     })
 </script>
