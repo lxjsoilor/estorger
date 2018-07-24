@@ -45,6 +45,18 @@
     display: inline-block;
 }
 
+.freight_adv_img2 {
+    background: url('../images/freight/a_12.png') no-repeat center center;
+}
+
+.freight_adv_img3 {
+    background: url('../images/freight/a_13.png') no-repeat center center;
+}
+
+.freight_adv_img4 {
+    background: url('../images/freight/a_14.png') no-repeat center center;
+}
+
 .freight_adv_img_1:hover .freight_adv_img {
     background-image: url('../images/freight/a_21.png') !important;
 }
