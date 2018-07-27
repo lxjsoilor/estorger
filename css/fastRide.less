@@ -9,9 +9,16 @@
         line-height: 36px;
         vertical-align: middle;
         border: 2px solid #3777ff;
+        transition: 0.4s all;
         float: left;
         a {
             color: #3777ff;
+        }
+        &:hover {
+            background-color: #3777ff;
+            a {
+                color: #ffffff !important;
+            }
         }
     }
     .pull-right {
@@ -61,7 +68,15 @@
             background-color: rgba(48, 100, 209, 0.8);
             left: 0px;
             top: 0px;
-
         }
+        &.platform2 {
+            background-image: url('../images/fastRide/A_d2.png') !important;
+        }
+        &.platform3 {
+            background-image: url('../images/fastRide/A_d3.png') !important;
+        } 
+        &.platform4 {
+            background-image: url('../images/fastRide/A_d4.png') !important;
+        } 
     }
 }

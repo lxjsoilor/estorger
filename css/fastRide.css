@@ -10,10 +10,17 @@
   line-height: 36px;
   vertical-align: middle;
   border: 2px solid #3777ff;
+  transition: 0.4s all;
   float: left;
 }
 .navbar-fixed-top .back_to_home a {
   color: #3777ff;
+}
+.navbar-fixed-top .back_to_home:hover {
+  background-color: #3777ff;
+}
+.navbar-fixed-top .back_to_home:hover a {
+  color: #ffffff !important;
 }
 .navbar-fixed-top .pull-right {
   line-height: 38px;
@@ -60,4 +67,13 @@
   background-color: rgba(48, 100, 209, 0.8);
   left: 0px;
   top: 0px;
+}
+.fast_ride_app .platform.platform2 {
+  background-image: url('../images/fastRide/A_d2.png') !important;
+}
+.fast_ride_app .platform.platform3 {
+  background-image: url('../images/fastRide/A_d3.png') !important;
+}
+.fast_ride_app .platform.platform4 {
+  background-image: url('../images/fastRide/A_d4.png') !important;
 }
