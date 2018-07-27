@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>会员充值</title>
+    <meta name="keywords" content="网页关键词（用逗号分隔开）">
+    <meta name="description" content="网页内容的简单描述">
+	
+	<style>
+	.current {
+		display: block !important;
+	}
+	</style>
+	
+    <link rel="stylesheet" href="mui.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="recharge.css">
+</head>
+<body>
+	<div class="mui-content" id="main">
+		<div class="member-card">
+			<div class="">
+			    <a class="mui-control-item mui-active" href="#card1">余额充值</a>
+			    <a class="mui-control-item" href="#card2">消费卡充值</a>
+			</div>
+			<div class="member-info">
+				<p class="mui-text-right c-white f-12">最近消费时间：2018/07/10</p>
+				<div class="part-1">
+					<span class="skin"><i class="custom">&#xe608;</i></span>
+					<span class="mui-pull-right custom c-white f-20">&#xe61c;</span>
+					<div class="">
+						黄伟铭 | 黄金会员
+						<p class="c-white">13658485485</p>
+					</div>
+				</div>
+				<div class="part-2 mui-row">
+					<div class="mui-col-xs-4">
+						<h5 class="mui-ellipsis">8465.66</h5>
+						当前余额(元)
+					</div>
+					<div class="mui-col-xs-4">
+						<h5 class="mui-ellipsis">8465.66</h5>
+						累计消费(元)
+					</div>
+					<div class="mui-col-xs-4">
+						<h5 class="mui-ellipsis">8465</h5>
+						消费笔数(笔)
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="card1" class="">
+			<ul class="mui-table-view">
+		    	<li class="mui-table-view-cell">
+		    		充值金额 
+		    		<div class="mui-pull-right">
+		    			<input type="number" class="money-in pr" placeholder="请输入金额"/>元
+		    		</div>
+		    	</li>
+		    	<li class="mui-table-view-cell">
+		    		赠送金额 
+		    		<div class="mui-pull-right">
+		    			<span class="pr c-red">按当前会员顶级充赠规则计算</span>元
+		    		</div>
+		    	</li>
+		    	<li class="mui-table-view-cell">
+		    		合计金额 
+		    		<div class="mui-pull-right">
+		    			<span class="pr">XX</span>元
+		    		</div>
+		    	</li>
+		    	<li class="mui-table-view-cell">
+		    		应收金额 
+		    		<div class="mui-pull-right">
+		    			<span class="pr">XX</span>元
+		    		</div>
+		    	</li>
+		    </ul>
+		</div>
+		
+		<div id="card2" style="display:none;" class="">
+			<ul class="mui-table-view">
+				<!--<router-link to="/foo">-->
+			        <li class="mui-table-view-cell">
+			            <a class="mui-navigate-right" @click="dd">
+			            	消费卡种
+			            	<span class="mui-badge">请选择</span>
+			            </a>
+			        </li>
+		        <!--</router-link>-->
+		    </ul>
+		</div>
+		
+		<button class="mui-btn mui-btn-block submit-btn">确认充值</button>
+		<button id='myClick'>button</button>
+		<a href="www.baidu.com">fdsfdsfsd</a>
+		<input type="text">
+		<!--<div class="consumer-card"></div>-->
+		 <!--<router-view></router-view>-->
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="mui.js"></script>
+<script type="text/javascript" src="vue.js"></script>
+<script>
+	mui.init();
+	document.getElementById('myClick').onclick = function () {
+		document.getElementById('card2').classList.add('current')
+		
+	}
+	// var vm = new Vue({
+	//     el: '#main',
+	//     data: {
+
+	//     },
+	//     created: function() {
+
+	//     },
+	//     methods:{
+	// 		dd:function(){
+	// 			window.location.href = 'login.html';
+	// 		},
+	// 		myClick:function(){
+	// 			// $('#card2').css('background','#000')
+	// 			document.getElementById('card2').style.backgroundColor = '#000'
+	// 		}
+	//     }
+	// });
+
+</script>

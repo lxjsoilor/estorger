@@ -1,0 +1,163 @@
+.search-box{
+	position:fixed;
+	width:100%;
+	padding:10px 15px;
+	background-color:#fff;
+}
+.search-box>input{
+	padding-left:40px;
+	background:url(../images/search.png) no-repeat center center;
+	background-size:20px 20px;
+	background-position:10px 9px;
+	margin:0;
+}
+.search-box>button{
+	position:absolute;
+	top:10px;
+	right:15px;
+	height:40px;
+	width:100px;
+	color:#fff;
+	border:none;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+	background-color:#628cf5;
+}
+.member-list{
+	top:60px;
+}
+.member-list .mui-table-view li:before{
+    position: absolute;
+    right: 15px;
+    top: 0;
+    left: 15px;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+	background-color:#dfdfdd;
+}
+.member-list .skin{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin-right:5px;
+	background-color:#628cf5;
+	border-radius:50%;
+}
+.member-list .mui-badge{
+	font-size:14px;
+	background-color:transparent;
+}
+.member-list .mui-navigate-right:after{
+	font-size: 20px;
+	font-weight: 600;
+}
+/*单个会员充值页*/
+.member-card{
+	padding:10px 15px;
+	margin-bottom:10px;
+	background-color:#fff;	
+}
+.member-info{
+	position:relative;
+	height:170px;
+	border-radius:5px;
+	margin-top:10px;
+	padding:10px 22.5px;
+	background: -webkit-linear-gradient(140deg, #2097e5 10%, #628cf5 70%);
+	background: linear-gradient(150deg, #2097e5 10%, #628cf5 70%);
+}
+.member-info .part-1{
+	padding-bottom:15px;
+	border-bottom:1px solid #7da2fe;
+}
+.member-info .part-1 .skin{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	margin-right:5px;
+	background-color:#fff;
+	border-radius:50%;
+}
+.member-info .part-1 .skin i{
+	font-size:25px;
+	background: -webkit-linear-gradient(119deg, #2097e5, #628cf5);
+	background: linear-gradient(119deg, #2097e5, #628cf5);
+	-webkit-background-clip: text;
+    color: transparent;
+}
+.member-info .part-1 .mui-pull-right.custom{
+	padding:10px 0 10px 10px;
+	margin-top: 15px;
+}
+.member-info .part-1>div:last-child{
+	display: inline-block;
+	color:#fff;
+	vertical-align: middle;
+}
+.member-info .part-2>div{
+	color:#fff;
+	font-size:12px;
+	text-align: center;
+}
+.member-info .part-2>div h5{
+	color:#fff;
+	font-size:16px;	
+	font-weight:600;
+	padding:15px 0 5px;
+}
+#card1 li.mui-table-view-cell{
+	line-height:28px;
+}
+#card1 li.mui-table-view-cell:after{
+	right:15px;
+	background-color:#dfdfdd;
+}
+#card1 .money-in{
+	width:100px;
+	height:25px;
+	text-align:right;
+	border:none;
+	padding:0;
+	margin:0;
+}
+#card1 .pr{
+	padding-right:5px;
+}
+#card1 li.mui-table-view-cell.mui-active,
+#card2 li.mui-table-view-cell>a.mui-navigate-right.mui-active{
+	background-color:transparent;
+}
+#card2 li.mui-table-view-cell .mui-badge{
+    font-size: 14px;
+    color:#628cf5;
+    background-color: transparent;
+}
+#card2 a.mui-navigate-right:after{
+    font-size: 20px;
+    font-weight: 600;
+}
+.submit-btn{
+	position:fixed;
+	bottom:0;
+	font-size:16px;
+	color:#fff;
+	padding: 13px 0;
+	margin:0;
+	background-color:#628cf5;
+}
+/*消费卡列表*/
+.consumer-card{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:#eee;
+	z-index:1;
+}
