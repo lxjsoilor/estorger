@@ -912,6 +912,11 @@ button {
     .share_app::after {
         bottom: -20px !important;
     }
+    .know_more_btn {
+        padding: 0px 16px !important;
+        font-size: 12px !important;
+        bottom: 14% !important;
+    }
 }
 
 /*以i6p 为分界线，兼容以下屏幕*/

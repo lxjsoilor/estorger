@@ -121,12 +121,29 @@
 		</nav>
 	</header>
 
-
+	<style>
+		.know_more_btn {
+			left: 50%;
+			transform: translateX(-50%);
+			padding: 4px 40px;
+			color: #388df1;
+			background-color: #ffffff;
+			display: inline-block;
+			line-height: 20px;
+			border: none;
+			border-radius: 100px;
+			bottom: 20%;
+			vertical-align: middle;
+		}
+	</style>
 	<!--1-->
-	<div class="togetherShareBanner class banner_bg relative" data-toggle="modal" data-target=".bs-example-modal-lg">
-		<a href="javascript:;">
+	<div class="togetherShareBanner class banner_bg relative">
 			<img src="./images/banner.jpg" alt="">
-		</a>
+			<button class="f_16 absolute  know_more_btn"  data-toggle="modal" data-target=".bs-example-modal-lg">
+				<div class="blank10"></div>
+					<div class="">了解更多</div>
+				<div class="blank10"></div>
+			</button>
 		<!-- <div class="absolute banner_title">
 			<div class="blank50 hidden-xs hidden-sm hidden-md"></div>
 			<div class="blank30 hidden-xs hidden-sm hidden-md"></div>
@@ -764,27 +781,27 @@
 
 	<!-- 弹出框 -->
 	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-	<div class="modal-dialog modal-lg" style="width: 520px;" role="document">
+	<div class="modal-dialog modal-lg" role="document">
 		<div class="modal-content">
 			<div class="apply_modal_title">
 				<img src="./images/apply_logo.png" alt="">
 			</div>
 			<div class="apply_modal_form">
 				<div class="row">
-					<div class="col-sm-4 form_left f_16">姓名</div>
-					<div class="col-sm-8 form_right">
+					<div class="col-xs-4 form_left f_16">姓名</div>
+					<div class="col-xs-8 form_right">
 						<input type="text">
 					</div>
-					<div class="col-sm-4 form_left f_16">手机号码</div>
-					<div class="col-sm-8 form_right">
+					<div class="col-xs-4 form_left f_16">手机号码</div>
+					<div class="col-xs-8 form_right">
 						<input type="text">
 					</div>
-					<div class="col-sm-4 form_left f_16 form_textarea">备注</div>
-					<div class="col-sm-8 form_right form_textarea">
+					<div class="col-xs-4 form_left f_16 form_textarea">备注</div>
+					<div class="col-xs-8 form_right form_textarea">
 						<textarea name="" id="" cols="30" rows="10"></textarea>
 					</div>
-					<div class="col-sm-4 form_left f_16"></div>
-					<div class="col-sm-8 form_right">
+					<div class="col-xs-4 form_left f_16"></div>
+					<div class="col-xs-8 form_right">
 						<button class="btn">立即提交</button>
 					</div>
 				</div>
